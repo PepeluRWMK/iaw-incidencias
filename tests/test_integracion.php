@@ -2,7 +2,6 @@
 $host = getenv('DB_HOST') ?: 'mariadb';
 $db   = getenv('DB_NAME') ?: 'incidencias';
 $user = getenv('DB_USER') ?: 'app_incidencias';
-$pass = getenv('DB_PASS') ?: 'clave_cii';
 
 try {
     $pdo = new PDO(
